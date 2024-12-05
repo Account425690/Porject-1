@@ -1,0 +1,87 @@
+@keyframes triangle {
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(300px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes spinfast {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes spinslow {
+    0% {
+        transform: translate(0) rotate(-0deg); 
+    }
+
+    50% {
+        transform: translate(100px, 100px) rotate(-180deg) ;
+    }
+
+    100% {
+        transform: translate(0,0) rotate(-359deg) ;
+    }
+}
+
+
+@keyframes diagonal {
+    0%{
+        transform: translate(0,0);
+    }
+
+    50%{
+        transform: translate(30px, 100px);
+    }
+
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes backdiagonal {
+    0%{
+        transform: translate(0,0);
+    }
+
+    50%{
+        transform: translate(-150px, 100px);
+    }
+
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes updown {
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateY(150px);
+    }
+
+
+    100%{
+        transform: translateY(0);
+    }
+}
+

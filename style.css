@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", system-ui;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block; 
+    margin-left: 25px;
+}
+
+.nav-main{
+    background-color: black;
+    text-align: end;
+    padding: 35px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.img0{
+    float: left; 
+}
+
+.title{
+    text-align: center;
+    font-size: 110px;
+    color: white;
+    font-weight: bolder;
+    transform: translateY(140px);
+    text-shadow:15px 10px 1px#d86160 ;
+    font-family: "Montserrat", system-ui;
+    
+}
+
+.header{
+    background-image: linear-gradient(#db8c82, #f8c795);
+    height: 70vh;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 110px;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 100px;
+    display: inline-block;
+    transform: translateY(155px);
+    font-weight: bold;
+    box-shadow: 15px 12px 1px #d86160;
+}
+
+.img1{
+    position: absolute;
+    left: -20px;
+    top: -140px;
+    animation-name: diagonal;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.img2{
+    position: absolute;
+    left: 800px;
+    top: 25px;
+    animation-name: triangle;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+
+.img3{
+    position: absolute;
+    bottom: 80px;
+    animation-name: spinslow;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+    
+
+.img4{
+    position: absolute;
+    right: -10px;
+    top: -100px;
+    animation-name: backdiagonal;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+.img5{
+    position: absolute;
+    left: 325px;
+    bottom: -30px;
+    z-index: 1;
+    animation-name: triangle;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+
+    
+}
+
+.img6{
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+    animation-name: spinfast;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+}
+
+
+.img7{
+    position: absolute;
+    left: -60px;
+    bottom: -30px;
+    animation-name: updown;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.subtitle{
+    padding: 50px;
+}
+
+.about-text{
+    font-size: 22px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+
+
+.info-text{
+    width: 100%;
+    font-size: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    box-shadow: 15px 12px 1px #d86160;
+}
+
+.info-pic{
+    width: 48%;
+}
+
+.info-left{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    width: 48%;
+}
+
+.info{
+    background-image: linear-gradient(184deg, white 30%, #f8c795 30%, #db8c82 50%);
+    margin-top: 100px;
+    padding-top: 70px;
+}
+
+
+.titles{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.services{
+    background-image: linear-gradient(-189deg,#db8c82 60%, white 50%);
+    margin-bottom: 180px
+
+}
+
+.service-image{
+    padding-bottom: 15px;
+    width: 80%;
+    max-width: 150px;
+}
+
+.service-cards{
+    display: inline-block;
+    width: 29.5%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 17px;
+    vertical-align: top;
+    border: 4px solid #f8c795;
+    height: 440px;
+    margin: auto 1.5%;
+    margin-bottom: 10px;
+}
+
+
+hr{
+    text-align: center;
+    border-color: #d86160;
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;
+}
+
+.core{
+    color: white;
+    margin-top: 120px;
+}
+
+
+.advantage-cards{
+    border: 4px solid #f8c795;
+    border-radius: 17px;
+    padding: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    box-shadow: 15px 12px 1px #d86160;
+    background-color: white;
+
+}
+
+.card2{
+    margin-left: auto;
+}
+
+.advantage-image1{
+    position: sticky;
+    z-index: -1;  
+    top: 20%;
+}
+
+.advantage-image2{
+    position: absolute;
+    right: 25px;
+    z-index: -1;
+}
+
+.advantages{
+    position: relative;
+}
+
+.advantages1{
+    margin-top: 100px;
+}
+
+.advantage-ul{
+    list-style-type: circle;
+}
+
+.project{
+    margin-top: 150px;
+}
+
+.our-projects{
+    display: inline-block;
+    border-radius: 15px;
+    border: 5px solid #d86160;
+    width: 49%;
+    height: auto;
+    vertical-align: top;
+}
+
+.contact-us{
+    height: 350px;
+    background-image: linear-gradient(#db8c82, #f8c795);
+    text-align: center;
+}
+
+.contact{
+    padding-top: 80px;
+}
+
+.contact-button{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 20px 80px; 
+    text-align: center;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 15px 12px 1px #d86160;  
+}
+
+
+.solo-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}

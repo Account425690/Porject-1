@@ -1,0 +1,77 @@
+@media (max-width: 1115px){
+    .advantage-image1,.advantage-image2{
+        display: none;
+    }
+    .advantage-cards{
+        width: 100%;
+        box-shadow: 6px 12px 1px #d86160;
+}
+}
+
+@media (max-width: 700px){
+    .service-cards{
+        width: 90%;
+        height: auto;
+        border: 2px solid #f8c795;
+    }
+    .our-projects{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .container{
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width:550px){
+    .title{
+        font-size: 60px
+    }
+    .header{
+        margin-top: 200px;
+    }
+    .button{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .info-left{
+        width: 96%;
+        height: auto;
+    }
+    .info-pic{
+        display: none;
+    }
+    .info-text{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .img5{
+        display: none;
+    }
+    .img6{
+        display: none;
+    }
+    .img7{
+        display: none;
+    }
+}
+
+
+
+
